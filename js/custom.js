@@ -26,8 +26,16 @@ $(window).on('load', function () {
         masonry: {
             columnWidth: ".all"
         }
-    })
+    });
+    
+    // Aplica o filtro padrão ao carregar a página (ex: mostrar só cachorros)
+    $grid.isotope({ filter: '.dog' });
+
+    // Define visualmente o botão ativo
+    $('.filters_menu li').removeClass('active');
+    $('[data-filter=".dog"]').addClass('active');
 });
+
 
 // nice select
 $(document).ready(function() {
