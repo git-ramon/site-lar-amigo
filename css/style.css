@@ -1005,7 +1005,7 @@ a:focus {
   color: inherit;
 }
 
-.btn-conhecer {
+.btn-Adotar {
   padding: 5px 10px;
   border: 2px solid #04b9e9;
   background-color: transparent;
@@ -1016,7 +1016,7 @@ a:focus {
   transition: background-color 0.3s ease;
 }
 
-.btn-conhecer:hover {
+.btn-Adotar:hover {
   background-color: #00e6c6;
   color: #ffffff;
 }
