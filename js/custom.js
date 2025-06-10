@@ -76,3 +76,11 @@ $(".client_owl-carousel").owlCarousel({
         }
     }
 });
+
+/* Function Loader */
+window.addEventListener("load", function () {
+    const loader = document.getElementById("loader-wrapper");
+    setTimeout(() => {
+      loader.classList.add("hidden");
+    }, 1000);
+});
