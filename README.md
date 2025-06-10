@@ -1,10 +1,10 @@
-# 🌟 Lar Amigo — Site Institucional
+# Projeto - Site Ong Lar Amigo
 
-Este é um site institucional desenvolvido para a ONG **Lar Amigo**, com foco em apresentar a organização, seus projetos sociais e facilitar o contato com o público.
+Este é um site+-+ desenvolvido para a ONG **Lar Amigo**, com foco em apresentar a organização, seus projetos sociais e facilitar o contato com o público.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5/CSS3**
 - **Bootstrap**
@@ -13,27 +13,39 @@ Este é um site institucional desenvolvido para a ONG **Lar Amigo**, com foco em
 
 ---
 
-## 🎨 Paleta de Cores
+## Paleta de Cores
 
 - `#013750` — Usado na barra de navegação e detalhes visuais
 - `#04b9e9` — Usado para botões e efeitos hover
 
 ---
 
-## 📂 Estrutura de Arquivos
+## Estrutura de Arquivos
 
-├── index.html
+Css
 ├── style.css
-├── bootstrap.css
-├── /img
-│ └── ... imagens 
-├── /js
-│ └── script.js 
-├── README.md
+├── responsive.css
+└── bootstrap.css
+
+fonts
+└── fontawesome-webfont.woff2
+
+images
+└── (imagens do site...)
+
+JS
+├── bootstrap.js
+└── custom.js
+
+📄 Home
+📄 Gallery
+📄 Contact
+📄 About
+📄 README.md
 
 ---
 
-## 💡 Recursos Implementados
+## Recursos Implementados
 
 - Animação de carregamento
 - Seções de apresentação, projetos e contato
@@ -42,11 +54,11 @@ Este é um site institucional desenvolvido para a ONG **Lar Amigo**, com foco em
 
 ---
 
-## 📸 Demonstração
+## Demonstração
 
 Acesse: https://git-ramon.github.io/site-lar-amigo/
 
-## 🔧 Como contribuir
+## Como contribuir
 
 Se quiser sugerir melhorias ou aprender com o código:
 
