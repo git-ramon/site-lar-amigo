@@ -22,19 +22,19 @@ Este é um site+-+ desenvolvido para a ONG **Lar Amigo**, com foco em apresentar
 
 ## Estrutura de Arquivos
 
-Css
-├── style.css
-├── responsive.css
+Css <br>
+├── style.css <br>
+├── responsive.css <br>
 └── bootstrap.css <br>
 
-fonts
+fonts <br>
 └── fontawesome-webfont.woff2 <br>
 
-images
+images <br>
 └── (imagens do site...) <br>
 
-JS
-├── bootstrap.js
+JS <br>
+├── bootstrap.js <br>
 └── custom.js <br>
 
 📄 Home <br>
