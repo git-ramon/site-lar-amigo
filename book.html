@@ -25,7 +25,7 @@
   <!-- font awesome style -->
   <link href="css/font-awesome.min.css" rel="stylesheet" />
 
-  <!-- Custom styles for this template -->
+  <!-- Custom styles -->
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
@@ -34,9 +34,15 @@
 
 <body class="sub_page">
 
+<!-- Loader Start -->
+  <div id="loader-wrapper">
+    <div class="loader"></div>
+  </div>
+  <!-- Loader End -->
+
   <div class="hero_area">
     <div class="bg-box">
-      <img src="images/hero-bg.jpg" alt="">
+      <img src="images/img-caoegato-1.png" alt="">
     </div>
     <!-- header section strats -->
     <header class="header_section">
@@ -68,7 +74,7 @@
               </li>
             </ul>
             <div class="user_option">
-              <a href="" class="order_online">
+              <a href="book.html" class="order_online">
                 Contato
               </a>
             </div>
@@ -80,65 +86,48 @@
   </div>
 
   <!-- book section -->
+  
+  <!-- end book section -->
   <section class="book_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
-          Book A Table
+          Junte-se à Nossa Causa
         </h2>
+        <h4>Entre em contato e descubra como fazer parte da transformação.</h4>
       </div>
       <div class="row">
         <div class="col-md-6">
           <div class="form_container">
-            <form action="">
+            <form id="form" action="">
               <div>
-                <input type="text" class="form-control" placeholder="Your Name" />
+                <input type="text" class="form-control" placeholder="Nome" />
               </div>
               <div>
-                <input type="text" class="form-control" placeholder="Phone Number" />
+                <input type="text" class="form-control" placeholder="Telefone" />
               </div>
               <div>
-                <input type="email" class="form-control" placeholder="Your Email" />
+                <input type="email" class="form-control" placeholder="Email" />
               </div>
               <div>
-                <select class="form-control nice-select wide">
-                  <option value="" disabled selected>
-                    How many persons?
-                  </option>
-                  <option value="">
-                    2
-                  </option>
-                  <option value="">
-                    3
-                  </option>
-                  <option value="">
-                    4
-                  </option>
-                  <option value="">
-                    5
-                  </option>
-                </select>
+                <textarea class="form-control" placeholder="Escreva sua mensagem" style="min-height: 120px;"></textarea>
               </div>
-              <div>
-                <input type="date" class="form-control">
-              </div>
+              
               <div class="btn_box">
-                <button>
-                  Book Now
+                <button type="button">
+                  Enviar Mensagem
                 </button>
               </div>
             </form>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="map_container ">
-            <div id="googleMap"></div>
-          </div>
+
+        <div class="col-md-6 d-flex justify-content-center">
+          <img src="images/img-caoegato-222.png" width="345" height="345">
         </div>
       </div>
     </div>
   </section>
-  <!-- end book section -->
 
   <!-- footer section -->
   <footer class="footer_section">
@@ -147,25 +136,19 @@
         <div class="col-md-4 footer-col">
           <div class="footer_contact">
             <h4>
-              Contact Us
+              Contato
             </h4>
             <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="book.html">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
                 <span>
-                  Location
+                  +55 11 9 9210-0132
                 </span>
               </a>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call +01 1234567890
-                </span>
-              </a>
-              <a href="">
+              <a href="book.html">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span>
-                  demo@gmail.com
+                  onglaramigo@gmail.com
                 </span>
               </a>
             </div>
@@ -173,49 +156,45 @@
         </div>
         <div class="col-md-4 footer-col">
           <div class="footer_detail">
-            <a href="" class="footer-logo">
+            <a href="book.html" class="footer-logo">
               Lar Amigo
             </a>
             <p>
-              Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
+              Somos uma ONG dedicada à proteção animal, promovendo a adoção responsável, campanhas de doação e programas de 
+              voluntariado e apadrinhamento.
             </p>
             <div class="footer_social">
-              <a href="">
+              <a href="book.html">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a href="book.html">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
               </a>
-              <a href="">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <a href="book.html">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a href="book.html">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-pinterest" aria-hidden="true"></i>
               </a>
             </div>
           </div>
         </div>
         <div class="col-md-4 footer-col">
           <h4>
-            Opening Hours
+            Horário de Atendimento
           </h4>
           <p>
-            Everyday
+            Todos os dias
           </p>
           <p>
-            10.00 Am -10.00 Pm
+            10:00 às 19:00
           </p>
         </div>
       </div>
       <div class="footer-info">
         <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates</a><br><br>
-          &copy; <span id="displayYear"></span> Distributed By
-          <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+          &copy; <span id="displayYear"></span> Todos os direitos reservados<br>
+          &copy; <span id="displayYear"></span> Ong Lar Amigo
         </p>
       </div>
     </div>
